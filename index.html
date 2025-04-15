@@ -1,0 +1,109 @@
+!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Site E-commerce</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">E-ALILA-SHOP</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#News">News</a></li>
+      <li><a href="#produits">Produits</a></li>
+      <li><a href="#Avis">Avis</a></li>
+      <li><a href="#">Recherche</a></li>
+      <li><a href="#Panier">Panier</a></li>
+      <li><a href="#Compte">Compte</a></li>
+      <li><a href="#Achat">achat</a></li>
+
+    </ul>
+  </nav>
+    
+  <main>
+    <h1>Panier</h1 id="Panier">
+    <div id="carts-items"></div>
+    <h1>Bienvenue à E-ALILA-SHOP</h1>
+    <p>Découvrez nos produits exceptionnels !</p>
+    <main>
+        
+        <section class="products" id="produits">
+          <div class="product">
+            <img src="sac.jpeg" alt="Produit 1">
+            <h3>Sac en cuir</h3>
+            <p>Prix: 25.OOOFcfa</p>
+            <button onclick="addToCart('Produit 1')">Ajouter au panier</button>
+          </div>
+          <div class="product">
+            <img src="btb.jpeg" alt="Produit 2">
+            <h3>Robe de bureau</h3>
+            <p>Prix: 35.000Fcfa</p>
+            <button onclick="addToCart('Produit 2')">Ajouter au panier</button>
+          </div>
+          <div class="product">
+            <img src="jo.jpeg" alt="Produit 3">
+            <h3><table>Jogging</table></h3>
+            <p>Prix: 15.000Fcfa</p>
+            <button onclick="addToCart('Produit 3')">Ajouter au panier</button>
+          </div>
+        </section>
+        
+       
+  
+
+
+        <section class="arrivage" id="News">
+          <h2>Nouveaux Arrivages</h2>
+          <div class="arrivage-list">
+            <div class="arrivage-item">
+              <img src="gb.jpeg" alt="Nouveau produit 1">
+              <h3>Robe tendance</h3>
+              <p>Prix :30.000Fcfa</p>
+              <button onclick="addToCart('Produit Nouveau 1')">Ajouter au panier</button>
+            </div>
+            <div class="arrivage-item">
+              <img src="cuir.jpeg" alt="Nouveau produit 2">
+              <h3> veste en cuire</h3>
+              <p>Prix : 25.000Fcfa</p>
+              <button onclick="addToCart('Produit Nouveau 2')">Ajouter au panier</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="auth" id="Compte">
+            <div class="form-container">
+              <h2>Connexion</h2>
+              <form id="login-form">
+                <input type="email" id="login-email" placeholder="E-mail:" required>
+                <input type="password" id="login-password" placeholder="Mot de passe:" required>
+                <input type="passe oublié" id="login-mot de passe oublié" placeholder="Mot de passe oublier:">
+                <button type="submit">Se connecter</button>
+              </form>
+            </div>
+            <p id="auth-message"></p>
+        </section>
+        <section class="reviews" id="Avis">
+          <div class="review">
+            <h4>Marie</h4>
+            <p>Vetement de qualité,je recommande.</p>
+          </div>
+          <div class="review">
+            <h4>Jean</h4>
+            <p>Livraison rapide et produit conforme.</p>
+          </div>
+        </section>
+        <section class="Achat" id="Achat">
+
+        </section>
+  </main>
+  <script src="script.js"></script> 
+   <!-- Pied de page -->
+  <footer class="footer">
+    <p>&copy; 2025 E-ALILA-SHOP.</p>
+    <p><a href="#">Contact</a>/<a href="#">E-Alila-Shop@.com</a></p>
+  </footer>
+ </body>
+</html>
+
