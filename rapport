@@ -1,0 +1,6 @@
+Ce projet a pour objectif la création d'un site e-commerce simple,interactif et responsive,qui va permettre aux utilisateurs de consulter des produits.
+Comme technologies utilisées nous avons:HTML,CSS,JavaScript
+La sctructure du site est divisé en plusieurs sections :Nous avons un Home, News,Avis,Recherche,Panier,Compte,Achat
+La foctionnalité de JavaScript qui a permis d'afficher le nombre d'article et les avis ;validation du formulaire de commande 
+Le design responsive va permettre au site de s'adapter aux differentes écrans grâce au média queries en css
+ce projet nous permis de mettre en pratique les fondamataux du développement web
