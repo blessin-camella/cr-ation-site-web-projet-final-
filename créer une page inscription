@@ -1,0 +1,3 @@
+J'ai créer une page d'incription pour permette à un utilisateur de créer un compte en saissant ses informanation personnelle commeE-mail,mot de passe ou mot de passa oubliér . L'objetif est d'assurer une saisie correcte,sécurisée et agréable à l'utilisateur.
+J'ai eu a faire la mise en forme avec CSS, en utilisant le design simple et responsive ;le centrage du formulaire; les couloure cohérentes avec le théme du site.
+J'ai fais la validation avec JavaScript, en vérifiant en temps réet des champs .
