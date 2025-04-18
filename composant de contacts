@@ -1,0 +1,4 @@
+Le composant de contact a pour but de permettre auc visiteurs du site de communiquer facilement avec l'entreprise.Il offre un formulaire simple pour envoyer une massage, poser des questions ou demander des informations.
+  Le composant de contact contient : un formulaires ou on retrouver un endroit pour saisir son E-mail; Mot de passe et ensuite se connecté.
+  J'ai utiliser comme technologies HTML pour la structure du formulaire; CSS pour la mise en forme;JavaScript pour la validation du champs.
+  L'utilisateurs devra remplir le champs obligatoire,javascript vérifie que le champs est bien remplis;en cas ou l'utulisateur ou son mot de passe un pourra clik sus longle du ou c'est d'indiquer mot de passe oublieé , et tout est bien saisir il suffira que l'utilisateur clik sur se connecté et le massage sera envoyer automatiquement à l'Email de l'entreprise via un Script .
